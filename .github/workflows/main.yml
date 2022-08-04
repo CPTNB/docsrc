@@ -28,7 +28,7 @@ jobs:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_PUSH_DOC_REPO }}
         with:
           source-directory: 'output'
-          destination-github-username: 'cptn'
+          destination-github-username: 'CPTNB'
           destination-repository-name: 'doctarget'
           user-email: 'cptn@amazon.net'
           target-branch: main
