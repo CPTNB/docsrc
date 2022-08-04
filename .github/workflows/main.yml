@@ -32,3 +32,4 @@ jobs:
           destination-repository-name: 'doctarget'
           user-email: 'cptn@amazon.net'
           target-branch: main
+          target-directory: 'upstream_docs'
